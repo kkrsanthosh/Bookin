@@ -17,10 +17,14 @@ class Installer
      */
     public function handle(Request $request, Closure $next)
     {
+
+      /*---============== SANTHOSH =============---*/
         // Check if installed
-        if (file_exists('../storage/installed')) {
+        // if (file_exists('../storage/installed')) {
             return $next($request);
-        }
-        return Redirect::to('/install');
+        // }
+        // return Redirect::to('/install');
+      /*---============== SANTHOSH =============---*/
+
     }
 }

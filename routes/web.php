@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\Auth\GoogleController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MetaController;
+use App\Http\Controllers\GooglePlacesController;
+
 
 require __DIR__ . '/auth.php';
 
@@ -23,7 +26,12 @@ Route::group(['middleware' => 'Installer'], function () {
   Route::get('/blogs', [App\Http\Controllers\Website\WebController::class, "blogs"])->name("web.blogs")->middleware('scriptsanitizer', 'setLocale');
   Route::get('/blog/{blog_slug}', [App\Http\Controllers\Website\WebController::class, "viewBlog"])->name("web.view.blog")->middleware('scriptsanitizer', 'setLocale');
   Route::get('/businesses/{business_category_slug}', [App\Http\Controllers\Website\WebController::class, "businesses"])->name("web.businesses");
-  Route::get('/b/{business_id}', [App\Http\Controllers\Website\WebController::class, "business"])->name("web.business");
+
+
+  /*---============== SANTHOSH =============---*/
+  Route::get('/b/{param?}', [App\Http\Controllers\Website\WebController::class, "business"])->name("web.business")
+    ->where('param', '.*'); // Allows URLs with slashes
+  /*---============== SANTHOSH =============---*/
 
   // Blog post share
   Route::get('/blog/{blog_slug}/share/facebook', [App\Http\Controllers\Website\ShareController::class, "shareToFacebook"])->name("sharetofacebook");
@@ -175,7 +183,7 @@ Route::group(['middleware' => 'Installer'], function () {
     Route::get('verify-email-verification', [App\Http\Controllers\Business\VerificationController::class, "verifyEmailVerification"])->name('verify.email.verification');
     Route::get('resend-email-verification', [App\Http\Controllers\Business\VerificationController::class, "resendEmailVerification"])->name('resend.email.verification');
 
-    // Account 
+    // Account
     Route::get('account', [App\Http\Controllers\Business\AccountController::class, "index"])->name('index.account');
     Route::get('account/edit', [App\Http\Controllers\Business\AccountController::class, "editAccount"])->name('edit.account');
     Route::post('account/update', [App\Http\Controllers\Business\AccountController::class, "updateAccount"])->name('update.account');
@@ -217,7 +225,7 @@ Route::group(['middleware' => 'Installer'], function () {
     Route::get('verify-email-verification', [App\Http\Controllers\BusinessAdmin\VerificationController::class, "verifyEmailVerification"])->name('verify.email.verification');
     Route::get('resend-email-verification', [App\Http\Controllers\BusinessAdmin\VerificationController::class, "resendEmailVerification"])->name('resend.email.verification');
 
-    // Account 
+    // Account
     Route::get('{business_id}/account', [App\Http\Controllers\BusinessAdmin\AccountController::class, "index"])->name('index.account');
     Route::get('{business_id}/account/edit', [App\Http\Controllers\BusinessAdmin\AccountController::class, "editAccount"])->name('edit.account');
     Route::post('{business_id}/account/update', [App\Http\Controllers\BusinessAdmin\AccountController::class, "updateAccount"])->name('update.account');
@@ -268,7 +276,7 @@ Route::group(['middleware' => 'Installer'], function () {
 
   // User Routes
   Route::group(['as' => 'user.', 'prefix' => 'user', 'namespace' => 'User', 'middleware' => ['auth', 'user', 'setLocale'], 'where' => ['locale' => '[a-zA-Z]{2}']], function () {
-    // Account 
+    // Account
     Route::get('account', [App\Http\Controllers\User\AccountController::class, "index"])->name('account.index');
     Route::get('account/edit', [App\Http\Controllers\User\AccountController::class, "editAccount"])->name('edit.account');
     Route::post('account/update', [App\Http\Controllers\User\AccountController::class, "updateAccount"])->name('update.account');
@@ -371,4 +379,11 @@ Route::group(['middleware' => 'Installer'], function () {
     Route::get('/mercadopago-booking-payment-status', [App\Http\Controllers\User\Payment\MercadoPagoController::class, "mercadoPagoPaymentStatus"])->name('booking.payment.mercadopago.status');
     Route::get('/booking-payment-mercadopago/{bookingId}', [App\Http\Controllers\User\Payment\MercadoPagoController::class, "prepareMercadoPago"])->name('bookingPaymentWithMercadoPago');
   });
+
+  /*---============== SANTHOSH =============---*/
+  Route::get('fetch-meta', [MetaController::class, 'getMeta']);
+  Route::get('/business-info', [GooglePlacesController::class, 'getBusinessInfo']);
+  Route::get('/get-place-id', [GooglePlacesController::class, 'getPlaceId'])->name('getPlaceId');
+  /*---============== SANTHOSH =============---*/
+  
 });

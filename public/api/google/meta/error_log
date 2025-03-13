@@ -1,0 +1,14 @@
+[25-Feb-2025 13:25:15 UTC] PHP Warning:  require(../../meta.php): Failed to open stream: No such file or directory in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 22
+[25-Feb-2025 13:25:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../meta.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 22
+[25-Feb-2025 13:25:44 UTC] PHP Warning:  require(meta.php): Failed to open stream: No such file or directory in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 22
+[25-Feb-2025 13:25:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'meta.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 22
+[25-Feb-2025 13:27:40 UTC] PHP Warning:  Undefined variable $hide_footer in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 163
+[25-Feb-2025 13:27:44 UTC] PHP Warning:  Undefined variable $hide_footer in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 163
+[25-Feb-2025 13:27:52 UTC] PHP Warning:  Undefined variable $hide_footer in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 163
+[25-Feb-2025 13:28:02 UTC] PHP Warning:  Undefined variable $hide_footer in /home/b9144b1q544s/public_html/suite.social/dev/bookings/meta/index.php on line 163

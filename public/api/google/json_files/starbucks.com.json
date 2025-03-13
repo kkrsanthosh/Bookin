@@ -1,0 +1,242 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "9-11",
+                "short_name": "9-11",
+                "types": [
+                    "street_number"
+                ]
+            },
+            {
+                "long_name": "Rue du Vieux-Marché-aux-Poissons",
+                "short_name": "Rue du Vieux-Marché-aux-Poissons",
+                "types": [
+                    "route"
+                ]
+            },
+            {
+                "long_name": "Strasbourg",
+                "short_name": "Strasbourg",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Bas-Rhin",
+                "short_name": "Bas-Rhin",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Grand Est",
+                "short_name": "Grand Est",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "France",
+                "short_name": "FR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "67000",
+                "short_name": "67000",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "9-11 Rue du Vieux-Marché-aux-Poissons, 67000 Strasbourg, France",
+        "geometry": {
+            "location": {
+                "lat": 48.5803109,
+                "lng": 7.749547299999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 48.5817164302915,
+                    "lng": 7.751023680291502
+                },
+                "southwest": {
+                    "lat": 48.5790184697085,
+                    "lng": 7.748325719708498
+                }
+            }
+        },
+        "icon": "https:\/\/maps.gstatic.com\/mapfiles\/place_api\/icons\/v1\/png_71\/cafe-71.png",
+        "name": "Starbucks",
+        "photos": [
+            {
+                "height": 510,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/113810146078670418644\">Starbucks<\/a>"
+                ],
+                "photo_reference": "AUy1YQ2YZ1djOjyKoJGvG5CCeil2sNkQnxSucmFiL4YnIqwvFwY9xvW3Ri9piLK_fdwOKbA9Tr2ktdOQMkEL4xUBBJ-ySmSN0XpgjzJ2dCKIz2PAyXxz55L3x8BZw6Db8Oo2whUl-bca0LumL67FrnfXO4PNGWjKgb8drt1P5_5B5kaHGcFW1PsKLcyK",
+                "width": 680
+            },
+            {
+                "height": 1679,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/113810146078670418644\">Starbucks<\/a>"
+                ],
+                "photo_reference": "AUy1YQ29GYhvwR-q5i2Y5RgFPi46pq3rKbIheX3QbeSVQSdGh_EPCmkhPQbBX2Qcbof0ioC1c4e_CnQe50v9BsiPuy4DOvM5H77N6gr5-iOVRjMeYe4Ixgw-oyzLdEx8JyG7sxqgBNlIzjt7wR71U06b4ZIYDiSvazdBTeVDMGMRI-J34wjWrKbya1rU",
+                "width": 1347
+            },
+            {
+                "height": 453,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/113810146078670418644\">Starbucks<\/a>"
+                ],
+                "photo_reference": "AUy1YQ0Cn7p0APg1rk_eKWAm8B0BQpvfYGkioAGzK-5voWvXiNlyzwNcLsIZ82ERK4uFdBqwMEK1vcNxT_vCvAXPXzWnAlzJoeyrpqACWvsmwBCLFlcFTSIS1M9EXNZjifO8Wbn3InhZggYoSmjOdIh-yCbZjncOvNaUmZ3r1VQxNnHSpDBrNrPdAEN8",
+                "width": 446
+            },
+            {
+                "height": 461,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/113810146078670418644\">Starbucks<\/a>"
+                ],
+                "photo_reference": "AUy1YQ0vQwcrjMv8go5idNj62HiUeYh6k9guWxU2PakrV1EA6LXdp-lVXP28OuZiQyXAfwETK8iLUHk1womo7DFqdpMyLY-8VMYVYs428YuwBbXW4ejH-Ytsqg54iGsv1XLWZ4uMQ8pelxLeiIGJfEpgcIYBmR9PWCFoBKx4Cmz8yxTENBgno8o8tWXR",
+                "width": 449
+            },
+            {
+                "height": 449,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/113810146078670418644\">Starbucks<\/a>"
+                ],
+                "photo_reference": "AUy1YQ17u2VFwzhv7YRbCmOp4aXsCUB7iRYqFl3HT3Rz9b95QSoSRIBoBiNRQjTCAMtKX8Wi2Z27Pck_ic0Hiip9BC9spmuarqa6aJq97h2Iv4O7rGRDdplMecXcIhd5htQjfT-vSm8MEkw-4Ec0bzeI8aB6AFSM3lTnIWi6h8lvlCIaFzka4rhUpWbC",
+                "width": 444
+            },
+            {
+                "height": 4000,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/117715143436539775224\">Анна Москаленко<\/a>"
+                ],
+                "photo_reference": "AUy1YQ0LSo0Sd5n2ObM-tC1RErFYcpB0pmc8twlTIxZFoTt2opVFMn_8O23nXVSA-73cxYhdRl9XGpYxaOAIE3XLEPtoPuK5OI9pSy-xUYLEyColvqKe5LECjJo9jXoeGjUs7NHAQ_lEIUpUX4AVYhXVN6NaDt-eGmi4NlSRh28d1ewsneJLouxi6mcN",
+                "width": 3000
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/117557253201949584195\">Yassin K.<\/a>"
+                ],
+                "photo_reference": "AUy1YQ2NtcdtuWHKvv2UIYU1Vz8RQVzyVZbjzbOdXzQRK1LnFkHQdjgWtnuocTn_7tYSwgXejxx_iKdTzsSQyD0RnGXkKWYfgNbZjcEUXlC4XhS6Ps9EIk8-8Oth3EdEBOcY55A3OhnSjyQyQfrd4P9LihUlBAjsrgKUS_30PX5DmFU3Vu5j_LK9NBDO",
+                "width": 4032
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/117832408789555351833\">Brad<\/a>"
+                ],
+                "photo_reference": "AUy1YQ0oSxAGla3SMm-yesUEs9-VdCRdNhCabUYxfWvBLDKGEERoqqChs6v8EyliP8Wzbc32cgmTabfA13XLdHWmxIRn7FB-Kak_mB9K1xNGmmIJjeVRYB_06HLgJXNnVR3Cb36Z2OlTY-wIScs1tQJNtrNO0GUegXbzBcAwmnCj3eXgpS4Esj3UnktD",
+                "width": 4032
+            },
+            {
+                "height": 4624,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/109611547788866685319\">Ranjith Kumar Batrody<\/a>"
+                ],
+                "photo_reference": "AUy1YQ36eSU1WRywduoW20AqMnfCRBWSjSwTHe-M7swaIfpc8tXfP3Vn9sUkrwKetkkO4oQHhPEPJr6vgGxBKapnZvic6yYOOoDBKE2wUxrdcqy6l8sFiLSlj7TrZZvBEUCA7iuRxQY7U0xjQmNl2aL6Jxv4QfFLZ19ZxAdZiLBe0wTr1ePGHlf_61Vi",
+                "width": 3468
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https:\/\/maps.google.com\/maps\/contrib\/117832408789555351833\">Brad<\/a>"
+                ],
+                "photo_reference": "AUy1YQ2YtYBBBETkVD4tZfys6AMK4BVT98BvTVvpvOTilObkkRnUsKkTUPzq9JCn8nyBIe6Y4Pc2RRzSMEQeUAD4wwWwHPucJapK7xJHRJeQEEplnIFibGfA3LCeYJ8-kvbRWZR5vg_PLkTUCp7jr-b2_YEIDIg_bN1Nqz2tUqu92GJ0fqXIcwNFRDWm",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJY8BRotbJlkcR2vf4YvfKqqg",
+        "plus_code": {
+            "compound_code": "HPJX+4R Strasbourg, France",
+            "global_code": "8FW9HPJX+4R"
+        },
+        "rating": 4,
+        "reviews": [
+            {
+                "author_name": "Brad",
+                "author_url": "https:\/\/www.google.com\/maps\/contrib\/117832408789555351833\/reviews",
+                "language": "en",
+                "original_language": "en",
+                "profile_photo_url": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjUUTRT_sgKmjJUPyt2vyCWJhPQo92bUePhPJfYy4xQ9yjtIMr-p_w=s128-c0x00000000-cc-rp-mo-ba8",
+                "rating": 3,
+                "relative_time_description": "a month ago",
+                "text": "Quite a few shops were closed on Christmas Day in Strasbourg. However, we did find Starbucks open in the morning when it was time for a caffeine fix so popped in and grabbed an espresso which tasted as expected along with Gingerbread latte, a sweet holiday dessert style coffee and cinnamon bun that was just fine. This branch has upstairs seating and outside tables as well. Nice of them to be open early on Christmas Day for early risers visiting the city.",
+                "time": 1735537919,
+                "translated": false
+            },
+            {
+                "author_name": "Tamás Rácz",
+                "author_url": "https:\/\/www.google.com\/maps\/contrib\/112929283540058352018\/reviews",
+                "language": "en",
+                "original_language": "en",
+                "profile_photo_url": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjXgNoHlZOMmIvMybCNeFkQPZSswZqPOu-dKGfhYztD_THd_jRhT=s128-c0x00000000-cc-rp-mo-ba4",
+                "rating": 3,
+                "relative_time_description": "6 months ago",
+                "text": "One star minus because the lady in the cassa didn't help enough to identify the cakes I want, she didn't come closer to help just waited at the cash register to finish my pantomime session to tell her which cookie I would like to order. It was nonsense. Other star minus because there isn't any cake for vegans. Cappuccino with oat milk was great and also we bought a nice and cosy mug.",
+                "time": 1723240894,
+                "translated": false
+            },
+            {
+                "author_name": "Didem Ünlü",
+                "author_url": "https:\/\/www.google.com\/maps\/contrib\/105629198520794436875\/reviews",
+                "language": "en",
+                "original_language": "en",
+                "profile_photo_url": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjVPT6FJEAe6RDGCCikpArTQhJ19hvhCUeFtb9F0UnhdrQGpYWBJ=s128-c0x00000000-cc-rp-mo",
+                "rating": 1,
+                "relative_time_description": "2 months ago",
+                "text": "I wished I would give 0 stars. I ordered black regular coffee. How hard it can be? They served me warm coffee which I don’t like. I asked them to change it. The barista answered me with a bad attitude. Another barista came and checked my receipt and told me it was 20 minutes since I ordered. I was trying to explain I waited after I paid but they didn’t listen to me. They accused me for lying or something I don’t understand well. I left my warm coffee to them. Thanks for nothing guys!",
+                "time": 1735214407,
+                "translated": false
+            },
+            {
+                "author_name": "E P",
+                "author_url": "https:\/\/www.google.com\/maps\/contrib\/115784480956345078697\/reviews",
+                "language": "en",
+                "original_language": "en",
+                "profile_photo_url": "https:\/\/lh3.googleusercontent.com\/a\/ACg8ocIdQt0hao15KrgaAHFBnV-sihq6iJ1f1j96AUeyj3Gw7QJ2HsE=s128-c0x00000000-cc-rp-mo",
+                "rating": 1,
+                "relative_time_description": "a year ago",
+                "text": "Probably the dirtiest and most unwelcoming Starbucks I’ve ever been to. I would give it zero stars but that isn’t an option. The female server with brunette hair and a ponytail that was on shift December 2nd at 6 pm ( her name was Sarah) really showed  the worst costumer service imaginable. She was not only rude but pushed several customers which simply isn’t okay. Furthermore the place was dirty. Ever table had at least 6 dirty cups sitting on it which isn’t acceptable.",
+                "time": 1701539566,
+                "translated": false
+            },
+            {
+                "author_name": "Winter Ioana",
+                "author_url": "https:\/\/www.google.com\/maps\/contrib\/112971120879747632479\/reviews",
+                "language": "en",
+                "original_language": "en",
+                "profile_photo_url": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjWHhU2qo6c8yJ-FhcpXuQaH43VG9TaBPABNrd61mGhwCWkb15xs=s128-c0x00000000-cc-rp-mo-ba5",
+                "rating": 5,
+                "relative_time_description": "7 years ago",
+                "text": "Nice and cozy place. There is a new location,  closer to the cathedral. Good customer service, baristas know at least 2 languages. There is upstairs relaxation area. You can buy personalized cups with Strasbourg.",
+                "time": 1514304044,
+                "translated": false
+            }
+        ],
+        "types": [
+            "bakery",
+            "restaurant",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "url": "https:\/\/maps.google.com\/?cid=12153749708278921178",
+        "user_ratings_total": 1264,
+        "website": "https:\/\/www.starbucks.fr\/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website"
+    },
+    "status": "OK"
+}
